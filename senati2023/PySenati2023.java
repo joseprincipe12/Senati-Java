@@ -18,9 +18,9 @@ public class PySenati2023 {
         System.out.println("|2| Resta");
         System.out.println("|3| multiplicación");
         System.out.println("|4| división");
-        parametro = entrada.nextFloat();
+        parametro = entrada.nextInt();
         System.out.println("Ingrese el primer número");
-        num_uno = entrada.nextInt();
+        num_uno = entrada.nextFloat();
         System.out.println("Ingrese el segundo número");
         num_dos = entrada.nextFloat();
        
