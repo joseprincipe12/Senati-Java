@@ -12,17 +12,17 @@ public class PySenati2023 {
         
         Scanner entrada = new Scanner(System.in);
         int parametro = 0;
-        int num_uno = 0, num_dos =0, resultado = 0;
+        float num_uno = 0, num_dos =0, resultado = 0;
         System.out.println("Calculadora");
         System.out.println("|1| Suma");
         System.out.println("|2| Resta");
         System.out.println("|3| multiplicación");
         System.out.println("|4| división");
-        parametro = entrada.nextInt();
+        parametro = entrada.nextFloat();
         System.out.println("Ingrese el primer número");
         num_uno = entrada.nextInt();
         System.out.println("Ingrese el segundo número");
-        num_dos = entrada.nextInt();
+        num_dos = entrada.nextFloat();
        
         switch(parametro){
         case 1: resultado = num_uno + num_dos;
